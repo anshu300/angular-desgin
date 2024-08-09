@@ -1,0 +1,66 @@
+<header>
+    <div id="header-sticky" class="header__area header-common header-transparent">
+        <div class="container">
+            <div class="mega__menu-wrapper p-relative">
+                <div class="header__main">
+                    <div class="header__left">
+                        <div class="header__logo">
+                            <a href="index-2.html">
+                                <img src="assets/imgs/logo/logo-white.svg" alt="logo not found">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="header__middle">
+                        <div class="mean__menu-wrapper d-none d-lg-block">
+                            <div class="main-menu">
+                               
+                                        <nav id="mobile-menu">
+                                            <ul>
+                                                <li>
+                                                    <a [routerLink]=" ">Home</a>
+                                                </li>
+                                                <li>
+                                                    <a [routerLink]="['/about']">About us</a>
+                                                </li>
+                                                <li>
+                                                    <a [routerLink]="['/payment']">Payment Solution</a>
+                                                </li>
+                                                <li>
+                                                    <a [routerLink]="['/contact']">Contact</a>
+                                                </li>
+                                            </ul>
+                                        </nav>
+                                   
+                                <!-- for wp -->
+                                <div class="header__hamburger ml-20 d-none">
+                                    <button type="button" class="hamburger-btn offcanvas-open-btn">
+                                        <span>01</span>
+                                        <span>01</span>
+                                        <span>01</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="header__right">
+                        <div class="header__action d-flex align-items-center">
+                            <div class="header__btn-wrap d-none d-xl-inline-flex">
+                                <a class="sub__btn"[routerLink]="['/login']">Log In</a>
+                                <a class="bd-gradient-btn" href="contact.html">Get Started</a>
+                            </div>
+                            <div class="header__hamburger ml-20 d-xl-none">
+                                <div class="sidebar__toggle">
+                                    <a class="bar-icon" href="avascript:void(0)">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
